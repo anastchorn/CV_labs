@@ -1,0 +1,8 @@
+(env_lab2) C:\Users\Анастасія>pip list
+Package       Version
+------------- --------
+numpy         1.26.0
+opencv-python 4.8.1.78
+Pillow        10.0.1
+pip           22.3
+setuptools    65.5.0
