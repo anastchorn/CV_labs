@@ -1,0 +1,4 @@
+numpy      1.26.0
+opencv-python  4.8.1.78
+pip        22.3
+setuptools 65.5.0
