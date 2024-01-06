@@ -79,15 +79,12 @@ def edge_filter(image):
     return convolution(image, kernel)
 
 def sepia_filter(image):
-    # Матриця перетворення кольорів для сепії
     sepia_matrix = np.array([[0.393, 0.769, 0.189],
                             [0.349, 0.686, 0.168],
                             [0.272, 0.534, 0.131]])
 
-    # Застосування матриці перетворення
     sepia_image = np.dot(image, sepia_matrix.T)
 
-    # Обмеження значень до діапазону [0, 255]
     sepia_image = np.clip(sepia_image, 0, 255)
 
     return sepia_image.astype(np.uint8)
